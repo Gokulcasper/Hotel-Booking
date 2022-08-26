@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 const { Schema } = mongoose;
 
 const HotelSchema = new mongoose.Schema({
-    Name: {
+    name: {
         type: String,
         required: true
     },

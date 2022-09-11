@@ -1,11 +1,11 @@
 import express from "express";
 import {
-  createRoom,
-  deleteRoom,
-  getRoom,
-  getRooms,
-  updateRoom,
-  updateRoomAvailability,
+    createRoom,
+    deleteRoom,
+    getRoom,
+    getRooms,
+    updateRoom,
+    updateRoomAvailability,
 } from "../controllers/room.js";
 import { verifyAdmin } from "../utils/verifyToken.js";
 
